@@ -11,6 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { QuitComponent } from './quit/quit.component';
 import { MessageComponent } from './message/message.component';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { MessageComponent } from './message/message.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BsDropdownModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
