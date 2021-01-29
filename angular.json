@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "redeSocial"
+  "defaultProject": "redeSocial",
+  "cli": {
+    "analytics": "d8b0db4b-4b14-4f49-a0ca-b05d8961722b"
+  }
 }
