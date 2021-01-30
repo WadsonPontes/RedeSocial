@@ -13,6 +13,7 @@ import { QuitComponent } from './quit/quit.component';
 import { MessageComponent } from './message/message.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutComponent,
     LoginComponent,
     QuitComponent,
-    MessageComponent
+    MessageComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
