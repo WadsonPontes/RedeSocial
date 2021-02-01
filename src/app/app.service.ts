@@ -5,6 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class AppService {
   last: string = 'home'
+  login: boolean = true
 
   constructor() {}
 }

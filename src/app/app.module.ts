@@ -17,6 +17,7 @@ import { QuitComponent } from './quit/quit.component';
 import { MessageComponent } from './message/message.component';
 import { UserComponent } from './user/user.component';
 import { PostComponent } from './post/post.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PostComponent } from './post/post.component';
     QuitComponent,
     MessageComponent,
     UserComponent,
-    PostComponent
+    PostComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,

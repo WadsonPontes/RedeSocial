@@ -7,14 +7,16 @@ import { LoginComponent } from './login/login.component';
 import { PostComponent } from './post/post.component';
 import { ProfileComponent } from './profile/profile.component';
 import { QuitComponent } from './quit/quit.component';
+import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'post', component: PostComponent },
   { path: 'friends', component: FriendsComponent },
-  { path: 'about', component: AboutComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'quit', component: QuitComponent },
   { path: ':username', component: ProfileComponent }
 ];

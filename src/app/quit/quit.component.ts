@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AppService } from '../app.service';
 
 @Component({
@@ -8,10 +9,11 @@ import { AppService } from '../app.service';
 })
 export class QuitComponent implements OnInit {
 
-  constructor(public app: AppService) { }
+  constructor(public app: AppService, public router: Router) { }
 
   ngOnInit(): void {
-    this.app.last = 'quit'
+    this.app.login = false
+    this.router.navigate(['login'])
   }
 
 }
