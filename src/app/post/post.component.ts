@@ -11,8 +11,7 @@ import { AppService } from '../app.service';
   styleUrls: ['./post.component.css']
 })
 export class PostComponent implements OnInit {
-  @ViewChild('template')
-  private template: TemplateRef<any>
+  @ViewChild('template') private template: TemplateRef<any>
   modalRef: BsModalRef
 
   constructor(
